@@ -6,3 +6,7 @@ while index<len(fruit):
     letter=fruit[index] 
     print(index,letter)
     index=index+1
+#this can be done more elegantly using a for loop
+#the less code you write the better it is
+for alphabet in fruit:
+    print(alphabet)
