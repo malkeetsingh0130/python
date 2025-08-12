@@ -10,3 +10,9 @@ fruits.remove("oranges")
 
 #we can use pop to remove items as well along with the index number
 fruits.pop(0)
+print(fruits)
+
+#if we want to remove the last item but we are not sure as to what the index is
+fruits.pop(-1)
+print(fruits)
+
